@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&display=swap');
+:root {
+    --primary-color: #2d4d2e ;
+    --secondary-color: #772F1A;
+    --accent1-color:  #a4e5e6;
+    --accent2-color: #FBFBFF;
+
+    --heading-font: 'Permanent Marker', san-serif;
+    --paragraph-font: 'Courier Prime', san-serif;
+
+    --nav-background-color: #00ccd0 ;
+    --nav-link-color: #FBFBFF ;
+    --nav-hover-link-color: #fbfbfb ;
+    --nav-hover-background-color: #772F1A ;
+
+}
+
+body { 
+    font-family: var(--paragraph-font) ;
+    max-width: 960px;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color) ;
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color) ;
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a :link, nav a :visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
