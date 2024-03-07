@@ -1,0 +1,45 @@
+main{
+max-width: 840px; }
+
+nav { background-color: #ffc0cb;
+    padding: 10px;
+}
+nav a { color: #3f1d0d ;
+    display: block;
+    padding: 10px;
+
+}
+h1{
+    color: #3f1d0d ;
+}
+
+main img { width: 150px;
+    height: auto;
+    border: 1px solid pink;
+    padding: 2px ; 
+    box-shadow: 0 0 30px pink ;
+
+}
+p { 
+    padding: 0;
+}
+
+aside {
+ width: 20rem;
+ margin: 1rem;
+ border: 1px solid rgb(241, 230, 230) ;
+ padding: 1rem;
+ background-color: #ffc0cb;
+ color: #3f1d0d ;
+ text-align: center;
+}
+aside img { 
+    width: 200px;
+    height: auto }
+
+
+footer{ 
+    margin-top: 15px;
+    border-top: 1px solid #3f1d0d ;
+    text-align: center ;
+}
