@@ -1,7 +1,7 @@
-*{ margin: 0;
+* { 
+    margin: 0;
     padding: 0;
-    box-sizing: boreder-box;
-}
+    box-sizing: border-box;}
 main{
 max-width: 840px; }
 
@@ -41,11 +41,11 @@ aside {
 aside img { 
     width: 200px;
     text-align: center; }
-aside h2 { position: absolute;
-    top: 47px;
-    left: 150px;
 
-}
+aside h2 { position: absolute;
+top: 220 px ;
+left: 89px ;
+font-size:17px;}
 
 footer{ 
     margin-top: 15px;
@@ -54,8 +54,8 @@ footer{
 }
 /* Class Selectors */
 .box{
-    margin: rem;
-border: 1px solid #eebdc5.01;
+margin:1rem;
+border: 1px solid #eebdc5;
 padding: 1rem;
 background-color:#ffc0cb;
 color:#3f1d0d;}
