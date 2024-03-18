@@ -37,15 +37,16 @@ aside {
  background-color: #ffc0cb;
  color: #3f1d0d ;
  text-align: center;
+ position: relative;
 }
 aside img { 
     width: 200px;
-    text-align: center; }
+    height: auto;}
 
 aside h2 { 
 position: absolute;
-top: 220 px ;
-left: 89px ;
+top: 89 px ;
+left:89px ;
 font-size:17px;}
 
 footer{ 
