@@ -42,7 +42,8 @@ aside img {
     width: 200px;
     text-align: center; }
 
-aside h2 { position: absolute;
+aside h2 { 
+position: absolute;
 top: 220 px ;
 left: 89px ;
 font-size:17px;}
