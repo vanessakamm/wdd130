@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker&display=swap');
+*{ max-width: 800px;
+margin: auto;}
+
+:root {
+    --primary-color: #2d4d2e ;
+    --secondary-color: #772F1A;
+    --accent1-color:  #a4e5e6;
+    --accent2-color: #FBFBFF;
+
+    --heading-font: 'Permanent Marker', san-serif;
+    --paragraph-font: 'Courier Prime', san-serif;
+
+    --nav-background-color: #00ccd0 ;
+    --nav-link-color: #FBFBFF ;
+    --nav-hover-link-color: #fbfbfb ;
+    --nav-hover-background-color: #772F1A ;
+
+}
+
+body { 
+    font-family: var(--paragraph-font) ;
+    max-width: 960px;
+    padding: 20px;
+}
+h1,h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header{
+    padding: 5px;
+    background-color: var(--accent1-color) ;
+}
+p {
+    padding: 2px;
+}
+.hero img {display: block;
+width:100%;
+height:auto;}
+.hero {position:relative;}
+div h2{ position :absolute; top: 30px; left: 40px;
+}
