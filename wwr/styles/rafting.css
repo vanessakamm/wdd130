@@ -23,10 +23,18 @@ body {
     max-width: 960px;
     padding: 20px;
 }
-h1,h2 {
+h1 {
+    font-family: var(--heading-font); 
+    color: var(--secondary-color);
+    text-shadow: -3px 3px 0 #fbfbfb ;
+    
+}
+h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-shadow : -2px 2px 0 (--secondary-color) ;
 }
+
 header{
     padding: 5px;
     background-color: var(--accent1-color) ;
@@ -34,9 +42,58 @@ header{
 p {
     padding: 2px;
 }
+nav {
+    display: inline-block;
+    margin:0 ;
+    padding:0;
+    text-decoration: none ;
+}
+
 .hero img {display: block;
 width:100%;
-height:auto;}
-.hero {position:relative;}
-div h2{ position :absolute; top: 30px; left: 40px;
+height:auto;
 }
+
+
+.happy img { 
+    display:block;
+    margin: 0 auto;
+    float: right; 
+    height: auto ;
+    width: 150px ; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+article { display : block ; 
+    background-color: #00ccd0;
+
+}
+
+.hero {position:relative;}
+
+.hero h1, article{ 
+    position : absolute;
+    top : 200px; 
+    left : 70px; 
+}
+
+.hero h1{ display : block ;
+    position : absolute;
+    top : 60px; 
+    left : 200px;}
+
+.sociallinks img { 
+    height : 40px;
+    width: 40px; }
+
+.sociallinks a {
+        text-decoration: none;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        border: none;
+        vertical-align: middle;
+      }
