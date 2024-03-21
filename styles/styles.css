@@ -70,8 +70,8 @@ background-color:#ffc0cb;
 color:#3f1d0d;}
 
 header,footer, .grid { 
-        max-width: 840px;
-        margin:0 auto; }
+        margin:0 auto;
+        max-width: 840px; }
 .grid{
         display:grid;
         align-items : center ;}
