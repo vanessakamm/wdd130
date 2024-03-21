@@ -69,12 +69,13 @@ padding: 2rem;
 background-color:#ffc0cb;
 color:#3f1d0d;}
 
+header,footer, .grid { 
+        max-width: 840px;
+        margin:0 auto; }
 .grid{
         display:grid;
         align-items : center ;}
-    header,.grid, footer { 
-        max-width: 840px;
-        margin:0 auto; }
+    
     main {
             grid-column:2/3;
             margin:1rem;
