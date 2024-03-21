@@ -2,19 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;}
-main{
-max-width: 840px; }
 
 nav { background-color: #ffc0cb;
-    padding: 10px;
+    padding: 20px;
+    display : flex ;
+    justify-content : space-evenly ;
+    align-items :  center;
 }
 nav a { color: #3f1d0d ;
     display: block;
-    padding: 10px;
+    padding: 0.5rem;
+    text-decoration : none ; 
+    display: block ; 
+    font-size : 1.2em ;
+   
 
 }
-h1{
+h1 { 
     color: #3f1d0d ;
+    border-bottom: 1px solid #ffc0cb;
+    text-shadow: 2px 2px 3px #ffc0cb; 
 }
 
 main img  { width: 150px;
@@ -22,8 +29,8 @@ main img  { width: 150px;
     border: 1px solid pink;
     padding: 2px ; 
     box-shadow: 0 0 30px pink ;
-float: right;
-}
+    float: right;
+    margin: 1rem ;}
 
 p { 
     padding: 1rem;
@@ -49,16 +56,34 @@ top: 35px ;
 left:60px ;
 font-size: 17px;}
 
+
 footer{ 
-    margin-top: 15px;
     border-top: 1px solid #3f1d0d ;
     text-align: center ;
 }
+
 /* Class Selectors */
 .box{
-margin-top : 2rem;
-margin-left: 1rem;
 border: 1px solid #eebdc5;
 padding: 2rem;
 background-color:#ffc0cb;
 color:#3f1d0d;}
+
+.grid{
+        display:grid;
+        align-items : center ;}
+    header,.grid, footer { 
+        max-width: 840px;
+        margin:0 auto; }
+    main {
+            grid-column:2/3;
+            margin:1rem;
+        }
+    aside{
+        width: 18.5rem;
+        position: relative;
+        grid-column:1/2;
+        grid-row:1/2;
+    }
+    
+ 
