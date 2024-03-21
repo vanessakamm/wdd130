@@ -42,15 +42,15 @@ h1 {
     justify-content: space-around ;
     }
 
-.navigation a {
-    display: inline-block ;
-    background-color: #fbffbf80;
-    color:#772F1A ;
-    padding: 10px ; 
-    block-size: auto-fill;
-    text-decoration: none;
+    .navigation a {
+        display: inline-block;
+        background-color: #fbffbf80;
+        color: #772F1A;
+        padding: 10px;
+        text-decoration: none;
+      }
 
-} 
+ 
 .logo img {
     width :150px ;
     height: auto ; 
@@ -114,27 +114,23 @@ height: auto ;
     text-shadow: 1px 2px 0 #772F1A; 
     text-align: center;
     padding: 1em; }
-.history {
-    
-
-     img {
+.history img {
     float :left  ; 
     width: 200px;
     height: auto;
     padding: 10px ;
 }   
-     p{
+.history p{
     font-family: var(--paragraph-font);
     padding:10px;
     color : var(--secondary-color);
     font-size: 15px;
 } 
-    section{ 
+.history section{ 
         margin:0.2rem ;
         display:block;
 
     }
-}
 .adventure h2 {
       font-family: var(--heading-font);
       color: var(--nav-background-color);
@@ -165,9 +161,9 @@ height: auto ;
 footer{
     display : flex ;
     align-items: flex-start ;
-    background-color: #2d4d2e;
-    p{color:#a4e5e6;}
-}
+    background-color: #2d4d2e; }
+footer p{
+    color:#a4e5e6;}
 .sociallinks img { 
     height : 40px;
     width: 40px; }
