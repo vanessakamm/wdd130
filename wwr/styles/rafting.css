@@ -162,7 +162,7 @@ footer{
     display : flex ;
     align-items: flex-start ;
     background-color: #2d4d2e; }
-footer p{
+.footer p{
     color:#a4e5e6;}
 .sociallinks img { 
     height : 40px;
