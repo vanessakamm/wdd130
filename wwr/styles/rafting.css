@@ -108,14 +108,15 @@ height: auto ;
     left : 150px;
     background-color:rgb(0, 204, 208,0.6) ; 
     }
-.history {
-    h2 { 
+.history h2 { 
     font-family: var(--heading-font);
     color: var(--nav-background-color);
     text-shadow: 1px 2px 0 #772F1A; 
     text-align: center;
-    padding: 1em;
-}
+    padding: 1em; }
+.history {
+    
+
      img {
     float :left  ; 
     width: 200px;
