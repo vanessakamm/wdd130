@@ -11,8 +11,7 @@ body {
   h1 {
     text-align: center;
     color:#4CAF50 ;
-    text-shadow
-    : 0 3px #cf73b8 ;
+    text-shadow: 0 3px #cf73b8 ;
   }
   
   main {
@@ -28,8 +27,8 @@ body {
   fieldset {
     margin-bottom: 20px;
   color:#ea6f8e ;
-text-shadow:0 1px #4CAF50;
-border : none ; }
+  text-shadow:0 1px #4CAF50;
+  border : none ; }
   
   legend {
     font-weight: bold;
