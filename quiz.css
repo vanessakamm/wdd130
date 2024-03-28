@@ -16,7 +16,7 @@ body {
   }
   
   main {
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
   }
@@ -28,7 +28,8 @@ body {
   fieldset {
     margin-bottom: 20px;
   color:#ea6f8e ;
-text-shadow:0 1px #4CAF50;}
+text-shadow:0 1px #4CAF50;
+border : none ; }
   
   legend {
     font-weight: bold;
@@ -43,13 +44,14 @@ text-shadow:0 1px #4CAF50;}
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-    color:#ea6f8e
+    color:#ea6f8e ;
+    max-width :900px ; 
   }
   
   input[type="text"],
   textarea,
   select {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     border: 1px solid #ea6f8e;
     border-radius: 4px;
