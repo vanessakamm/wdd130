@@ -24,18 +24,21 @@ form {
 
 fieldset {
     margin-bottom: 20px;
-    color: #ea6f8e;
+    color: #eb87a0;
     text-shadow: 0 1px #4CAF50;
     border: 0 ;
+    
 }
 
 legend {
     font-weight: bold;
-    color:#4CAF50
+    color:#4CAF50;
+    text-shadow:0 1px #ea6f8e;
 }
 
 .question {
     color: greenyellow;
+    text-shadow:0 1px #ea6f8e;
 }
 
 label {
@@ -44,6 +47,7 @@ label {
     margin-bottom: 5px;
     color:#4CAF50;
     max-width: 900px;
+    text-shadow:0 1px #ea6f8e;
 }
 
 input[type="text"],
