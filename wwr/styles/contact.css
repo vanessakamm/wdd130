@@ -155,7 +155,9 @@ figure img {
         margin:0px;  
       }
 
-.title h2 { font-family: var(--heading-font);
+.title h2 { 
+    font-size: 25px;
+    font-family: var(--heading-font);
     color: var(--nav-background-color);
     text-shadow: 1px 2px 0 var(--accent2-color);
     text-align: center;
@@ -169,6 +171,100 @@ figure img {
     width : 100% ;
     flex-direction : row ; 
 }
+.form p {
+    font-size: 15px;
+    font-family: var(--heading-font);
+    color: var(--nav-background-color);
+    text-shadow: 1px 2px 0 var(--accent2-color);
+    text-align: center;
+    background-color: var(--secondary-color);
+  }
+  
+  .form {
+    margin-bottom: 20px;
+    background-color: var(--secondary-color);
+  }
+  
+  fieldset {
+    margin: 5px;
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
+    border: 0;
+    max-width: 100%;
+  }
+  
+  fieldset legend {
+    font-weight: bold;
+  }
+  
+  fieldset label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  fieldset input[type="text"],
+  fieldset input[type="email"],
+  fieldset textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  fieldset .q3 {
+    overflow: hidden
+  }
+  .q3{
+    float: left;
+    clear: none;
+}
+
+  
+  label .radio-name { 
+    float: left;
+    clear: none;
+    display: block;
+    padding: 0px 1em 0px 8px;
+  }
+  
+  input[type=radio],
+  input.radio {
+    float: left;
+    clear: none;
+    margin: 2px 0 0 2px;
+  }
+ .sub{
+    float: left;
+    clear:none; 
+    margin-right:20px; }
+
+  button[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: var(--accent1-color);
+  }
+
+button[type="submit"] {
+display: block;
+margin: 10px auto;
+padding: 10px 20px;
+background-color: var(--primary-color);
+color: var(--nav-background-color);
+border: none;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background-color: var(--accent1-color);
+}
+
 
 
 footer{

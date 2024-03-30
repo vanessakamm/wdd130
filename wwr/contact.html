@@ -62,15 +62,66 @@
 </section>
 
 <section class="form">
-<h3> Send us a message !</h3>
-<p> please write down your information so we van reach out to you </p>
-<form>
-<fieldset>
-    <label for="name"> name </label>
-    <input id="name" name="name" type="text">
-</fieldset>
+    <h3>Send us a message!</h3>
+    <p>Please write down your information so we can reach out to you</p>
+    <form>
+      <fieldset>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text">
+        
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email">
+      </fieldset>
 
-</form>
+
+      <fieldset>
+        <div class="q3">
+        <label for="q3">What is the purpose of your inquiry?</label>
+        
+        <div class="radio-name">  
+            <label for="general">General inquiry</label>
+        </div>
+
+        <div class="radio-container">
+            <input id="general" name="purpose" type="radio">
+        </div>
+
+        <div class="radio-name">
+            <label for="reservation">Reservation Question</label>
+        </div>
+
+         <div class="radio-container">
+            <input id="reservation" name="purpose" type="radio"> 
+        </div>
+
+        <div class="radio-name">
+            <label for="suggestion">Website suggestion</label>
+        </div>
+        <div class="radio-container">
+            <input id="suggestion" name="purpose" type="radio">
+        </div>
+
+        
+      </div> 
+      </fieldset>
+
+
+      <fieldset>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write here"></textarea>
+      </fieldset>
+      <fieldset>
+        <div class="sub">
+        <input id="subscription" name="subscription" type="checkbox">
+        </div>
+        
+        <label for="subscription">Subscribe to the monthly newsletter</label>
+        
+      
+    </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
 </section>
 </main>
 
