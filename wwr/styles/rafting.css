@@ -3,18 +3,18 @@
 margin: auto;}
 
 :root {
-    --primary-color: #2d4d2e ;
-    --secondary-color: #772F1A;
-    --accent1-color:  #a4e5e6;
+    --primary-color: #254224 ;
+    --secondary-color: #503430;
+    --accent1-color:#E1E68C ;
     --accent2-color: #030303;
 
     --heading-font: 'Permanent Marker', san-serif;
     --paragraph-font: 'Courier Prime', san-serif;
 
-    --nav-background-color: #00ccd0 ;
+    --nav-background-color: #C8E6E6; ;
     --nav-link-color: #FBFBFF ;
-    --nav-hover-link-color: #fbfbfb ;
-    --nav-hover-background-color: #772F1A ;
+    --nav-hover-link-color: #FBD9E8 ;
+    --nav-hover-background-color: #4F332F ;
 
 }
 
@@ -26,7 +26,7 @@ body {
     }
 h1 {
     font-family: var(--heading-font); 
-    color: var(--accent1-color);
+    color: var(--nav-background-color);
     text-shadow: 1px 4px 0 #030303 ;
     }
 
@@ -35,7 +35,7 @@ h1 {
          display: grid ;
          grid-template-columns: 1fr 3fr ;
          align-items: center ;
-         background-color:var(--nav-hover-background-color)
+         background-color:var(--primary-color)
  }
 .navigation { 
     display: flex ;
@@ -43,9 +43,11 @@ h1 {
     }
 
     .navigation a {
+        font-size : 20px ;
         display: inline-block;
-        background-color: var(--primary-color);
+        background-color: var(--secondary-color);
         color: var(--nav-background-color);
+        border: 1px solid var(--accent2-color) ;
         padding: 10px;
         text-decoration: none;
         text-shadow: 1px 2px 0 var(--accent2-color);
@@ -95,7 +97,7 @@ height: auto ;
 
 .hero article{ 
     display: inline-block;
-    background-color: #2d4d2e ;
+    background-color: var(--primary-color) ;
     position : absolute;
     top : 150px; 
     left : 20px; 
@@ -108,7 +110,8 @@ height: auto ;
     margin:0;
     top : 50px; 
     left : 250px;
-    background-color: #2d4d2e ; 
+    background-color: var(--primary-color); 
+    color: var(--nav-hover-link-color);
     }
 
     .history h2 { 
@@ -207,11 +210,11 @@ height: auto ;
 
 
 
-footer{
+  footer{
     display : flex ;
     align-items: flex-start ;
-    background-color: var(--secondary-color); 
-    
+    background-color: var(--primary-color); 
+
        
 }
 .close p{
