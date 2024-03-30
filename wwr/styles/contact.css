@@ -99,10 +99,14 @@ h2{
     text-align: left;
     padding: 1em;
     background-color: var(--secondary-color); }
-.map { max-width : 100% ;
-        max-height: auto ;
+.map { 
+    max-width : 100% ;
+    max-height: auto ;
     border:0 ;
-    margin : 10px; }
+    margin : 10px;
+    border:0;
+    
+}
 
 .information .content{ 
     display: grid;
@@ -183,10 +187,12 @@ figure img {
   .form {
     margin-bottom: 20px;
     background-color: var(--secondary-color);
-  }
+    padding: 20px;
   
+}
+ 
   fieldset {
-    margin: 5px;
+    margin: 20px;
     color: var(--accent1-color);
     background-color: var(--primary-color);
     border: 0;
@@ -209,29 +215,15 @@ figure img {
     padding: 5px;
     margin-bottom: 10px;
   }
-  
-  fieldset .q3 {
-    overflow: hidden
-  }
-  .q3{
-    float: left;
-    clear: none;
-}
 
   
-  label .radio-name { 
-    float: left;
+ .radio-container {
+    float: left ; 
     clear: none;
-    display: block;
+    display: block ;
     padding: 0px 1em 0px 8px;
-  }
+}
   
-  input[type=radio],
-  input.radio {
-    float: left;
-    clear: none;
-    margin: 2px 0 0 2px;
-  }
  .sub{
     float: left;
     clear:none; 
@@ -253,12 +245,13 @@ figure img {
 
 button[type="submit"] {
 display: block;
-margin: 10px auto;
+margin-bottom: 20px auto;
 padding: 10px 20px;
 background-color: var(--primary-color);
 color: var(--nav-background-color);
 border: none;
 cursor: pointer;
+
 }
 
 button[type="submit"]:hover {
