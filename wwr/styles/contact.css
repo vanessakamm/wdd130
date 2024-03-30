@@ -256,7 +256,7 @@ figure img {
 
 button[type="submit"] {
 display: block;
-margin-bottom: 20px auto;
+margin-bottom: 20px ;
 padding: 10px 20px;
 background-color: var(--primary-color);
 color: var(--nav-background-color);
