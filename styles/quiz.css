@@ -13,7 +13,7 @@ h1 {
 }
 
 main {
-    max-width: 1000px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -46,14 +46,14 @@ label {
     font-weight: bold;
     margin-bottom: 5px;
     color:#4CAF50;
-    max-width: 900px;
+    max-width: 500px;
     text-shadow:0 1px #ea6f8e;
 }
 
 input[type="text"],
 textarea,
 select {
-    width: 80%;
+    width: 100%;
     padding: 10px;
     border: 1px solid #ea6f8e;
     border-radius: 4px;
