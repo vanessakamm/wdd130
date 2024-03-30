@@ -113,7 +113,7 @@ h2{
     background-color: var(--secondary-color); }
 .map { 
     max-width : 100% ;
-    max-height: auto ;
+    height: auto ;
     border:0 ;
     margin : 10px;
     border:0;
@@ -123,7 +123,7 @@ h2{
 .information .content{ 
     display: grid;
     grid-template-columns: 1fr auto;
-    grid-gap:  0 px;
+    grid-gap: 0 ;
     background-color: var(--primary-color);
     max-width: 100% ;
     height: auto ; 
@@ -242,7 +242,7 @@ figure img {
 
   button[type="submit"] {
     display: block;
-    margin: 10px auto;
+    margin: 10px;
     padding: 10px 20px;
     background-color: var(--primary-color);
     color: white;
