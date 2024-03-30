@@ -258,7 +258,7 @@ height: auto ;
       padding: 1em;
       background-color: var(--secondary-color); }
   .map { 
-      max-width : 100% ;
+      max-width: 100% ;
       height: auto ;
       border:0 ;
       margin : 10px;
@@ -278,7 +278,7 @@ height: auto ;
   .information h6 { 
       font-family: var(--paragraph-font);
       font-size : 15px; 
-      margin: 10px;
+      margin: 5px;
       color : var(--accent1-color);
   }
   
@@ -343,8 +343,10 @@ height: auto ;
     }
     
     .form {
+      
       background-color: var(--secondary-color);
       padding: 20px;
+
     
   }
    
@@ -385,35 +387,27 @@ height: auto ;
       float: left;
       clear:none; 
       margin-right:20px; }
+
   
-    button[type="submit"] {
-      display: block;
-      margin: 10px;
-      padding: 10px 20px;
-      background-color: var(--primary-color);
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
     
-    button[type="submit"]:hover {
-      background-color: var(--accent1-color);
-    }
   
   button[type="submit"] {
-  display: block;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-family: 
+  var(--paragraph-font);
   margin-bottom: 20px ;
   padding: 10px 20px;
   background-color: var(--primary-color);
-  color: var(--nav-background-color);
+  color: var(--accent1-color);
   border: none;
   cursor: pointer;
-  
-  }
+ }
   
   button[type="submit"]:hover { 
       font-family: var(--paragraph-font);
-      background-color: var(--accent1-color);
+      background-color: var(--accent2-color);
   }
   
 
