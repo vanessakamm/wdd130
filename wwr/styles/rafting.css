@@ -437,6 +437,7 @@ height: auto ;
 display: flex; 
 align-items: center;
 justify-content: center;
+background-color: var(--secondary-color);
 }
 .trip a  { text-decoration: none;}
 .button {
@@ -450,7 +451,7 @@ justify-content: center;
 }
 
 .button:hover {
-  background-color: #45a049;
+  background-color: var(--accent2-color);
 }
 
 /* pictures and detailed decsription of the "our best trips!"sections  */
