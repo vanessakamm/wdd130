@@ -416,39 +416,42 @@ height: auto ;
   background-color: var(--primary-color);
   font-family: var(--paragraph-font);
   font-size: 20px ; 
-  padding: 34.5px }
+  padding: 34.5px; 
+ }
 
-.trips a { 
-  padding : 57px ; 
-  background-color: var(--secondary-color);
-  color: var(--nav-hover-link-color) ;
-  font-size: 20px;
- text-decoration: none;
-}
 .trip a:hover {
   background-color: var(--accent2-color);}
 
 .trips-grid {
   display : grid ;
-  grid-template-columns: auto auto  ;
+  grid-template-columns: 5fr auto ;
   gap: 0px;
   padding : 0px ; 
-  background-color: var(--primary-colr);
+  background-color: var(--secondary-color);
 
 }.trips-grid-item {
   display : block ; 
   text-align: center ; 
-
-  
 }
 .trip { 
-  
-  display:block; 
-  text-align: center;
+display: flex; 
+align-items: center;
+justify-content: center;
 }
-.trip section {
-  display: block ; }
+.trip a  { text-decoration: none;}
+.button {
+  display: block; 
+    background-color: var(--secondary-color);
+    color: var(--nav-hover-link-color) ;
+    font-size: 20px;
+   text-decoration: none;
+  padding:45px 20px ; 
 
+}
+
+.button:hover {
+  background-color: #45a049;
+}
 
 /* pictures and detailed decsription of the "our best trips!"sections  */
   .best-container {
@@ -469,8 +472,9 @@ height: auto ;
   background-color: var(--secondary-color); }
  
   .best-container img {
-    max-width: 400px; 
+    max-width: auto; 
     margin : 0px ; 
+  
   }
   
 .first , .second , .third {
@@ -483,6 +487,7 @@ height: auto ;
 .best .best-container .text{ 
   display: inline-block;
   order : -1;
+  max-width: auto;
   width : 100% ;   
   margin : 10px ;
   justify-content: center;
@@ -508,6 +513,7 @@ height: auto ;
   margin : 10px ; 
   text-align: center;
   padding-top: 10px;
+ 
 }
 /* The table section */
 .table  h2{
