@@ -432,7 +432,7 @@ background-color: var(--secondary-color);
 }
 
 .trip a  { text-decoration: none;}
-.button {
+.click a {
   display: block; 
     background-color: var(--secondary-color);
     color: var(--nav-hover-link-color) ;
@@ -441,7 +441,7 @@ background-color: var(--secondary-color);
   padding:45px 20px ; 
 
 }
-.button:hover {
+.click:hover {
   background-color: var(--accent2-color);
 }
 .picture img {
@@ -589,7 +589,7 @@ background-color: var(--secondary-color);
   margin-right: 100px;
 }
 
-.home .content button {
+.home .content .click {
   background-color: var(--nav-hover-background-color);
   color: var(--nav-hover-link-color);
   padding: 10px 20px;
@@ -598,7 +598,7 @@ background-color: var(--secondary-color);
   font-size: 18px;
   margin-left:90px; 
 }
-.home .content button:hover {
+.home .content .click:hover {
   background-color: var(--primary-color);
   cursor: grab;
 }
