@@ -659,7 +659,7 @@ padding: 5px;
   footer{
     display : flex ;
     align-items: flex-start ;
-    background-color: var(--primary-color); 
+    background-color: var(--primary-color);
 
        
 }
@@ -676,4 +676,5 @@ padding: 5px;
         padding: 0;
         border: none;
         vertical-align: middle;
+        color:var(--nav-hover-link-color) ;
       }
