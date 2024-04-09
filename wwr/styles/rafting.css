@@ -343,17 +343,7 @@ height: auto ;
       max-width: 100%;
     }
     
-     fieldset legend {
-      width: 100% ;
-      display: inline;
-      color: var(--nav-background-color);
-      background-color: var(--nav-hover-background-color);
-      text-shadow: 1px 6px 0 var(--accent2-color); 
-      text-align: center;
-      font-family: var(--heading-font);
-      font-size: 30px; 
-      padding:20px ; 
-    }
+     
     
     fieldset label {
       display: block;
@@ -592,6 +582,15 @@ background-color: var(--secondary-color);
   background-color: var(--nav-hover-link-color);
   margin-bottom: 10px;
   margin-right: 100px;
+}
+.form  legend {
+  width: 100% ;
+  color: var(--nav-background-color);
+  background-color: var(--nav-hover-background-color);
+  text-shadow: 1px 6px 0 var(--accent2-color); 
+  text-align: left;
+  font-family: var(--heading-font);
+  font-size: 30px; 
 }
 
 .home .content .click {
