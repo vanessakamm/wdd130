@@ -32,9 +32,14 @@ p {
     padding: 25px;
 }
 nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size : 20px ;
     display: flex;
+    background-color: var(--secondary-color);
+    color: var(--nav-background-color);
+    border: 1px solid var(--accent2-color) ;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: 1px 2px 0 var(--accent2-color);
 }
 
 nav a {
@@ -51,5 +56,5 @@ nav a:visited {
 
 nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+    background-color: var(--accent1-color);
 }
