@@ -432,13 +432,14 @@ background-color: var(--secondary-color);
 }
 
 .trip a  { text-decoration: none;}
+.click {
+  width : 100%;}
 .click a {
   display: block; 
     background-color: var(--secondary-color);
     color: var(--nav-hover-link-color) ;
     font-size: 20px;
    text-decoration: none;
-  padding:45px 20px ; 
 
 }
 .click:hover {
@@ -630,6 +631,7 @@ padding: 5px;
 
 .purpose , .purpose .first{
   background-color: var(--primary-color);
+
 }
 .purpose p {
   color:var(--accent1-color);
@@ -638,22 +640,21 @@ padding: 5px;
   text-align: center;
 }
 
-.purpose a  { text-decoration: none;}
-.purpose button {
+
+.purpose a {
   display: block; 
     background-color: var(--secondary-color);
     color: var(--nav-hover-link-color) ;
     font-size: 20px;
    text-decoration: none;
-   margin: 0px 10px 0px 40px;
-   padding: 100px 50px 100px 50px;
-
+   margin-left: 15px ; 
+   padding: 110px 30px 110px 20px ; 
+   text-align: center;
 
 }
-.purpose button:hover {
-  background-color: var(--accent1-color);
+.purpose a:hover {
+  background-color: var(--accent2-color);
 }
-
  
 /* the footer section */
   footer{
