@@ -479,7 +479,7 @@ background-color: var(--secondary-color);
   
 .first , .second , .third {
   display : flex ;
-  flex-wrap: row wrap ;
+  flex-wrap: nowrap ;
   justify-content: space-evenly;
   padding : 10px ; 
 }
@@ -487,7 +487,7 @@ background-color: var(--secondary-color);
 .best .best-container .text{ 
   display: inline-block;
   order : -1;
-  max-width: auto;
+  max-width: 100%;
   width : 100% ;   
   margin : 10px ;
   justify-content: center;
