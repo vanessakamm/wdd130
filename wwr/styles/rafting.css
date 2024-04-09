@@ -583,7 +583,7 @@ background-color: var(--secondary-color);
   margin-bottom: 10px;
   margin-right: 100px;
 }
-.form  legend {
+.form legend {
   width: 100% ;
   color: var(--nav-background-color);
   background-color: var(--nav-hover-background-color);
